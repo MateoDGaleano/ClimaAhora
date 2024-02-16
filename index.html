@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ClimaAhora</title>
+        <meta charset="utf-8"/>
+        <link rel="shortcut icon" href="Logo clima.png" type="image/x-icon" />
+        <html lang="es-MX"></html>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="¡Mira el clima en tu ubicación sin importar dónde estés!">
+        <meta name="robots" content="index,nofollow">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="index.css" rel="stylesheet" type="text/css">
+    </head>
+    <body onload="onload()">
+        <script src="index.js"></script>
+        <div id="container">
+            <img id="logo" src="Logo clima.png">
+            <div id="block1" class="block">
+                
+                <div id="temperature"></div>
+                <div class="information-container">
+                    Humidity:
+                    <div id="humidity"></div>  
+            </div>
+            <div id="block2" class="block">
+                <div id="location"></div>
+                <div id="date"></div>
+                <div id="descripción"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div id="loader" class="loader">Loading...</div>
+    </body>
+
+
+
+</html>
